@@ -9,7 +9,7 @@ load_dotenv()
 
 # ── Paths / globals ────────────────────────────────────────────────────────────
 data_dir = Path(__file__).parent / "data"
-departments = ["engineering", "finance", "general", "marketing"]
+departments = ["engineering", "finance", "general", "marketing", "hr"]
 csv_path   = data_dir / "hr" / "hr_data.csv"          # HR is special ⇒ csv only
 collection_name = "Departmental_Docs"
 
