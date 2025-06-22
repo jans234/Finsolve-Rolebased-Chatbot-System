@@ -63,7 +63,7 @@ role-based-chatbot/
 
 <br>
 
-⚙️ Technologies Used
+## ⚙️ Technologies Used
 
 Category	Tool / Library
 Backend API	FastAPI
