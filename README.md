@@ -99,11 +99,11 @@ Session Mgmt	starlette.middleware.sessions
     ```bash
     pip install -r app/requirements.txt
     ```
-4. 
-python -m venv env
-source env/bin/activate     # On Windows: env\Scripts\activate
-
-5. I
+4. Create .env File
+   ```bash
+    GROQ_MODEL=llama3-8b-8192
+    GROQ_API_KEY=your_groq_api_key
+   ```
 
     ```bash
     
