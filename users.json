@@ -1,0 +1,7 @@
+{
+  "Afaq":   { "password": "afaqpass", "role": "engineering" },
+  "bob":     { "password": "bobpass", "role": "finance" },
+  "Peter":   { "password": "peterpass", "role": "hr" },
+  "Tony":    { "password": "tonypass", "role": "marketing" },
+  "guest":   { "password": "guestpass", "role": "general" }
+}
