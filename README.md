@@ -11,12 +11,19 @@ A secure, Role-Based Access Control (RBAC) chatbot built with FastAPI, Streamlit
 
 ## 🔧 Features
 ✅ User Authentication (Session-based login/logout)
+
 🔐 Role-based access to department-specific documents
+
 📄 Ingests Markdown & CSV files (multi-department support)
+
 📚 Retrieval-Augmented Generation (RAG) using ChromaDB
+
 💬 Answers via LLaMA 3 (Groq API)
+
 🌐 Web interface using Streamlit
+
 🧠 Semantic search with MiniLM embeddings
+
 🪪 No cross-department data leakage
 
 <br>
