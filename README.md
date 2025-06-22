@@ -91,7 +91,7 @@ Session Mgmt	starlette.middleware.sessions
 
 1. Clone the Repo
     ```bash
-    git clone https://github.com/your-username/finSolve-role-based-chatbot.git
+    https://github.com/jans234/Finsolve-Rolebased-Chatbot-System.git
     cd finSolve-role-based-chatbot
     ```
 2. Create & Activate Virtual Environment
