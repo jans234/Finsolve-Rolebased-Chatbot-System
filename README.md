@@ -90,14 +90,18 @@ Session Mgmt	starlette.middleware.sessions
     git clone https://github.com/your-username/finSolve-role-based-chatbot.git
     cd finSolve-role-based-chatbot
     ```
-
+2. Create & Activate Virtual Environment
+   ```bash
+   python -m venv env
+   source env/bin/activate 
+   ```
 
    ```
-3. Create & Activate Virtual Environment
+4. 
 python -m venv env
 source env/bin/activate     # On Windows: env\Scripts\activate
 
-4. Install Requirements
+5. Install Requirements
     ```bash
     pip install -r app/requirements.txt
     ```
@@ -108,13 +112,13 @@ source env/bin/activate     # On Windows: env\Scripts\activate
 
 
 
-5. Create .env File
+6. Create .env File
 GROQ_MODEL=llama3-8b-8192
 GROQ_API_KEY=your_groq_api_key
 
-6. Run FastAPI Backend
+7. Run FastAPI Backend
 uvicorn api:app --reload
 
-7. Run Streamlit Frontend
+8. Run Streamlit Frontend
 streamlit run chatbot_ui.py
 <br>
