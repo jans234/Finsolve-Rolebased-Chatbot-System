@@ -9,7 +9,7 @@ A secure, Role-Based Access Control (RBAC) chatbot built with FastAPI, Streamlit
 
 ## FrontEnd
 ![frontend of chatbot](frontend.png)
-[frontend](frontend2.png)
+![frontend](frontend2.png)
 
 <br>
 
