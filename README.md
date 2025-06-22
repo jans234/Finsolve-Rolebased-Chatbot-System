@@ -86,9 +86,12 @@ Session Mgmt	starlette.middleware.sessions
 <br>
 
 1. Clone the Repo
-   ```bash
-git clone https://github.com/your-username/finSolve-role-based-chatbot.git
-cd finSolve-role-based-chatbot
+    ```bash
+    git clone https://github.com/your-username/finSolve-role-based-chatbot.git
+    cd finSolve-role-based-chatbot
+    ```
+
+
    ```
 3. Create & Activate Virtual Environment
 python -m venv env
@@ -98,6 +101,13 @@ source env/bin/activate     # On Windows: env\Scripts\activate
     ```bash
     pip install -r app/requirements.txt
     ```
+
+    ```bash
+    
+    ```
+
+
+
 5. Create .env File
 GROQ_MODEL=llama3-8b-8192
 GROQ_API_KEY=your_groq_api_key
