@@ -104,20 +104,12 @@ Session Mgmt	starlette.middleware.sessions
     GROQ_MODEL=llama3-8b-8192
     GROQ_API_KEY=your_groq_api_key
    ```
-
+5. Run FastAPI Backend
+   ```bash
+   uvicorn api:app --reload
+   ```
+6. Run Streamlit Frontend
     ```bash
-    
+    streamlit run chatbot_ui.py
     ```
-
-
-
-6. Create .env File
-GROQ_MODEL=llama3-8b-8192
-GROQ_API_KEY=your_groq_api_key
-
-7. Run FastAPI Backend
-uvicorn api:app --reload
-
-8. Run Streamlit Frontend
-streamlit run chatbot_ui.py
 <br>
