@@ -39,6 +39,7 @@ role-based-chatbot/
 
 ├── chatbot_ui.py          ← Streamlit frontend interface
 │
+
 ├── data/
 │   ├── finance/
 │   │   └── *.md           ← Markdown files for Finance
