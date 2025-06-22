@@ -32,23 +32,32 @@ A secure, Role-Based Access Control (RBAC) chatbot built with FastAPI, Streamlit
 role-based-chatbot/
 │
 ├── api.py                 ← FastAPI backend (login, RAG, auth)
+
 ├── department.py          ← RAG logic, embedding, Chroma ingestion
+
 ├── users.json             ← User credentials and roles
+
 ├── chatbot_ui.py          ← Streamlit frontend interface
 │
 ├── data/
 │   ├── finance/
 │   │   └── *.md           ← Markdown files for Finance
+
 │   ├── marketing/
 │   │   └── *.md           ← Markdown files for Marketing
+
 │   ├── engineering/
 │   │   └── *.md           ← Markdown files for Engineering
+
 │   ├── general/
 │   │   └── *.md           ← Markdown files for general access
+
 │   └── hr/
 │       └── hr_data.csv    ← CSV data for HR department
+
 │
 ├── .env                   ← API keys and secrets
+
 └── requirements.txt       ← Python dependencies
 
 <br>
