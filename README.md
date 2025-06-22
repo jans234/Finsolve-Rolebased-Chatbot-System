@@ -7,8 +7,8 @@ A secure, Role-Based Access Control (RBAC) chatbot built with FastAPI, Streamlit
 ## Architecture
 ![architecture diagram of the Finsolve Role Based chatbot System](architect.png)
 
-
 <br>
+
 ## 🔧 Features
 ✅ User Authentication (Session-based login/logout)
 🔐 Role-based access to department-specific documents
