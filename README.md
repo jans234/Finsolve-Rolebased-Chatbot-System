@@ -95,16 +95,15 @@ Session Mgmt	starlette.middleware.sessions
    python -m venv env
    source env/bin/activate 
    ```
-
-   ```
+3. nstall Requirements
+    ```bash
+    pip install -r app/requirements.txt
+    ```
 4. 
 python -m venv env
 source env/bin/activate     # On Windows: env\Scripts\activate
 
-5. Install Requirements
-    ```bash
-    pip install -r app/requirements.txt
-    ```
+5. I
 
     ```bash
     
